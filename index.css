@@ -1,0 +1,68 @@
+body{
+  background-color: #AEC2B6;
+}
+
+main{
+  height: 100vh;
+  /* width: 70vw; */
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+#header-title{
+  margin: 3rem 0 0 0;
+  height: 6rem;
+  text-align: center;
+}
+
+#member-number-section{
+  padding-top: 5rem;
+  text-align: center;
+}
+
+#team-number-label {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#team-number-input{
+  height: 1.5rem;
+  margin-left: 1rem;
+  padding-left: 0.3rem;
+}
+
+#team-number-button,
+#member-name-button{
+  cursor: pointer;
+  height: 1.9rem;
+  padding: 0 1rem;
+  background-color:transparent;
+  border:2px solid #AEC2B6;
+  border-radius: 3px;
+  transition: all 200ms ease-in-out;
+}
+
+#team-number-button:hover,
+#member-name-button:hover{
+  color:white;
+  background-color: #AEC2B6;
+}
+
+#member-name-input{
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+#member-name-label{
+  margin: 0 1rem 0 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.team-member-name-input{
+  margin : 0 0.5rem;
+  height: 1.4rem;
+  padding-left: 0.3rem;
+}
